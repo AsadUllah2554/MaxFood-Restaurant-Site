@@ -507,10 +507,14 @@ section {
         padding: 180px 40px;
         transition: all .38s ease;
     }
-
+    
+    .dropdown-content {
+        background: #232724;
+    }
     .dropdown a{
         text-align: center;
     }
+   
 
     .navbar a {
         display: block;
