@@ -499,7 +499,8 @@ section {
         right: -100%;
         width: 250px; 
         height: 110vh;
-        background: #fff;
+        background: #232724;
+      
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -507,9 +508,20 @@ section {
         transition: all .38s ease;
     }
 
+    .dropdown a{
+        text-align: center;
+    }
+
     .navbar a {
         display: block;
         margin: 1.3rem 0;
+        color: var(--hero-color) !important;
+    }
+
+    .row img {
+        width: 100% !important;
+       
+        border-radius: 10px;
     }
 
     .navbar.open {
